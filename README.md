@@ -1,11 +1,12 @@
-# ProyectoSQL  Se resolvio 4 problematicas que se enfrenta el banco ITBA, el lenguaje que se utilizo para resolver estos inconvenientes fue SQL.Introducción
+# ProyectoSQL  Se resolvio 4 problematicas que se enfrenta el banco ITBA, el lenguaje que se utilizo para resolver estos inconvenientes fue SQL.
+## Introducción
 ITBANK tiene un modelo de datos definido para la operación de su negocio. El 
 modelo de datos permite conocer:
  Los tipos de los datos que hay en la base y la forma en que se relacionan.
  Las restricciones de integridad
  Entender cómo llevar adelante operaciones de manipulación de los datos
 Se adjunta el siguiente extracto con las principales entidades:
-Primera problemática
+### Primera problemática
 Dada la base de datos ITBANK, se solicita ampliar el modelo de datos 
 conocido con las nuevas entidades generadas por el home banking.
 - Crear en la base de datos los tipos de cliente, de cuenta y marcas de 
@@ -36,8 +37,8 @@ aleatoria
 - Corregir el campo employee_hire_date de la tabla empleado con la 
 fecha en formato YYYY-MM-DD
 Para tal fin se recomienda usar las sentencias CREATE, ALTER, INSERT y 
-UPDATE
-Segunda problemática 
+## UPDATE
+### Segunda problemática 
 Una vez realizado los cambios en la base de datos, se pide entregar un archivo SQL 
 con los siguientes requerimientos de consulta frecuente.
  Crear una vista con las columnas id, numero sucursal, nombre, apellido, DNI 
@@ -91,7 +92,7 @@ la 10
  Eliminar el registro correspondiente a “Noel David” realizando la selección 
 por el nombre y apellido
  Consultar sobre cuál es el tipo de préstamo de mayor importe
-Tercera problemática 
+### Tercera problemática 
  Seleccionar las cuentas con saldo negativo
  Seleccionar el nombre, apellido y edad de los clientes que tengan en el 
 apellido la letra Z
@@ -111,7 +112,7 @@ ordenándolos por importe
  Obtener el importe total de los prestamos agrupados por tipo de préstamos. 
 Por cada tipo de préstamo de la tabla préstamo, calcular la suma de sus 
 importes. Renombrar la columna como loan_total_accu
-Cuarta problemática 
+### Cuarta problemática 
  Listar la cantidad de clientes por nombre de sucursal ordenando de mayor 
 a menor
  Obtener la cantidad de empleados por cliente por sucursal en un número
